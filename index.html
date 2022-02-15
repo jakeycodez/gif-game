@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gif Guessing Game</title>
+    <link rel="stylesheet" href="/styles/styles.css">
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script> 
+</head>
+
+<body>
+
+    <section class="hero">
+        <h1 class="hero__title">GIF GAME</h1>
+        <div class="hero__container">
+
+            <img class="hero__response" src="">
+        </div>
+     </section>
+ 
+    <section class="answer">
+
+        <h2 class="answer__question">What word best describes these four GIFs?</h2>
+
+        <form id="answer__form" class="answer__form">
+
+            <input class="answer__submit" type="text" name ="answerSubmisson" placeholder="Answer Here..." autocomplete="off">
+
+            <button class="answer__submit answer__submit--btn">Submit Answer</button>
+
+        </form>git sta
+
+
+        <div class="answer__divider">
+
+            <button id="revealAnswer" class="answer__submit answer__submit--quit" type="text">Give Me Answer!</button>
+            
+            <a class="answer__refresh" href="/">
+                <button class="answer__submit answer__submit--next" type="text">Next Question</button>
+            </a>
+
+        </div>
+            
+    </section>
+    
+    <script src="script.js"></script>
+</body>
+</html>
